@@ -3,9 +3,11 @@ module github.com/direnv/direnv/v2
 go 1.16
 
 require (
-	github.com/BurntSushi/toml v0.3.1
-	github.com/direnv/go-dotenv v0.0.0-20181227095604-4cce6d1a66f7
-	github.com/mattn/go-isatty v0.0.12
-	golang.org/x/mod v0.4.1
-	mvdan.cc/sh/v3 v3.3.0-0.dev.0.20210311224605-8f4a18d1a615
+	github.com/BurntSushi/toml v0.4.1
+	github.com/direnv/go-dotenv v0.0.0-20210516213449-d90326084211
+	github.com/mattn/go-isatty v0.0.14
+	golang.org/x/mod v0.5.1
+	golang.org/x/sys v0.0.0-20211003122950-b1ebd4e1001c // indirect
+	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
+	mvdan.cc/sh/v3 v3.4.0
 )
